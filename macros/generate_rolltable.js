@@ -64,7 +64,7 @@ async function getFilteredItems(pack, filters) {
     let ok = true
     // apply filters
     for(let f=0; f<fKeys.length; f++) {
-      if(hasProperty(entity, fKeys[f]) && getProperty(entity, fKeys[f]) !== filters[fKeys[f]]) {
+      if(hasProperty(entity, fKeys[f]) && getProperty(entity, fKeys[f]) != filters[fKeys[f]]) {
         ok = false
         break
       }
