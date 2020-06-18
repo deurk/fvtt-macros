@@ -2,7 +2,8 @@
 
 A few macros for [Foundry VTT](https://foundryvtt.com/)
 
-
+* [Update embedded entitites of an actor from Compendium(s)](#update-embedded-entitites-of-an-actor-from-compendiums)
+* [Generate a roll table from a Compendium](#generate-a-roll-table-from-a-compendium)
 
 ## Update embedded entitites of an actor from Compendium(s)
 
