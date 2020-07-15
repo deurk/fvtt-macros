@@ -8,7 +8,7 @@
 // - any: applies to all entities (any type)
 // - [key]: applies only to entities of type [key]
 const NOUPDATE = {
-  any: [ "data.quantity", "data.identified", "data.unidentified", "data.description.unidentified" ],
+  any: [ "img", "data.quantity", "data.identified", "data.unidentified", "data.description.unidentified" ],
   class: [ "data.level" ]
 }
 
